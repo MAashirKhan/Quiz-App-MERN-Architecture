@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const user = mongoose.model(
-  "tbl_Users",
+  "Users",
   mongoose.Schema(
     {
       userfullName: {

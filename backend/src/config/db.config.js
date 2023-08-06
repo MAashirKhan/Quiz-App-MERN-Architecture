@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const MONGODB_CONFIG = {
-    DB: process.env.MONGO_CS,
+    DB: "mongodb://localhost:27017/QuizApp-DB",
 };
 
 module.exports = {
